@@ -2,9 +2,9 @@ from os import getenv
 import pymssql
 from bokeh.plotting import figure, output_file, show
 
-server = "instance1.cy2x1syxxkbe.us-west-2.rds.amazonaws.com"
+server = "test.c4bzdpmjj9lz.ap-southeast-2.rds.amazonaws.com"
 user = "master"
-password = "passwordGoesHere"
+password = "password here"
 
 conn = pymssql.connect(
     host = server, 
